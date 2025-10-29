@@ -1,0 +1,19 @@
+{
+  "name": "sistema-de-musicas",
+  "version": "1.0.0",
+  "description": "Sistema de controle de músicas com Node.js e PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Wesley Silva Santos",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.16.3",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.15.6",
+    "@types/readline-sync": "^1.4.8"
+  }
+}
